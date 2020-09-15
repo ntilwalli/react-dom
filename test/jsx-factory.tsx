@@ -1,6 +1,6 @@
 import { createElement, Attributes, ReactElement, ReactType } from 'react';
 const assert = require('assert');
-import {ReactSource} from '@cycle/react';
+import {ReactSource} from 'stump-react';
 import {makeDOMDriver, jsxFactory} from '../src/index';
 import {run} from '@cycle/run';
 import xs  from 'xstream';

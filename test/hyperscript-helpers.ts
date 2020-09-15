@@ -1,5 +1,5 @@
 import xs from 'xstream';
-import {h, ReactSource} from '@cycle/react';
+import {h, ReactSource} from 'stump-react';
 import {
   makeDOMDriver,
   section,

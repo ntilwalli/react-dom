@@ -1,5 +1,5 @@
 import { createElement, ReactElement, ReactType } from 'react';
-import { incorporate } from '@cycle/react';
+import { incorporate } from 'stump-react';
 export { Attributes } from 'react';
 
 declare global {

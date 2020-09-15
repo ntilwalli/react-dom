@@ -1,5 +1,5 @@
 {
-  "name": "@cycle/react-dom",
+  "name": "stump-react-dom",
   "version": "2.4.0",
   "description": "Cycle.js driver that uses React DOM to render the view",
   "author": "Andre Staltz <contact@staltz.com>",
@@ -20,13 +20,13 @@
   "typings": "lib/cjs/index.d.ts",
   "types": "lib/cjs/index.d.ts",
   "peerDependencies": {
-    "@cycle/react": "^2.2.0",
+    "stump-react": "^2.2.0",
     "react": ">=16.4.x",
     "react-dom": ">=16.4.x",
     "xstream": "11.x.x"
   },
   "devDependencies": {
-    "@cycle/react": "^2.7.0",
+    "stump-react": "^2.7.0",
     "@cycle/run": "^5.1.0",
     "@types/mocha": "^2.2.40",
     "@types/node": "^10.5.2",

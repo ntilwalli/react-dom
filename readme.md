@@ -6,7 +6,7 @@
 - Contains hyperscript helper functions, like in Cycle DOM
 
 ```
-npm install @cycle/react-dom
+npm install stump-react-dom
 ```
 
 ## Example
@@ -14,7 +14,7 @@ npm install @cycle/react-dom
 ```js
 import xs from 'xstream';
 import {run} from '@cycle/run';
-import {makeDOMDriver, div, h1, button} from '@cycle/react-dom';
+import {makeDOMDriver, div, h1, button} from 'stump-react-dom';
 
 function main(sources) {
   const inc = Symbol();
@@ -133,7 +133,7 @@ declare var jsxFactory: any;
 ## Usage
 
 ```js
-import { jsxFactory } from '@cycle/react-dom';
+import { jsxFactory } from 'stump-react-dom';
 
 function view(state$: Stream<State>): Stream<ReactElement> {
     return state$.map(({ count }) => (
@@ -148,10 +148,10 @@ function view(state$: Stream<State>): Stream<ReactElement> {
 
 ## Notes
 
-Please ensure you are depending on compatible versions of `@cycle/react` and `@cycle/react-dom`. They should both be at least version `2.1.x`.
+Please ensure you are depending on compatible versions of `stump-react` and `stump-react-dom`. They should both be at least version `2.1.x`.
 
 ```
-yarn list @cycle/react
+yarn list stump-react
 ```
 
 should return a single result.

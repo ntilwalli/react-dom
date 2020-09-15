@@ -1,5 +1,5 @@
 import xs from 'xstream';
-import {h, ReactSource} from '@cycle/react';
+import {h, ReactSource} from 'stump-react';
 import {makeDOMDriver, h1, h2, h3, h4} from '../src/index';
 import {run} from '@cycle/run';
 const assert = require('assert');

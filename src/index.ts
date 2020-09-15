@@ -1,7 +1,7 @@
 import {Stream} from 'xstream';
 import {ReactElement, createElement} from 'react';
 import {render} from 'react-dom';
-import {ReactSource, makeCycleReactComponent} from '@cycle/react';
+import {ReactSource, makeCycleReactComponent} from 'stump-react';
 
 export function makeDOMDriver(container: any) {
   return function domDriver(sink: Stream<ReactElement<any>>) {
