@@ -1,4 +1,4 @@
-import {h} from 'stump-react';
+import {h2 as h} from 'stump-react';
 import {ReactElement} from 'react';
 
 function parseShortcut(param: any) {
