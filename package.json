@@ -20,13 +20,13 @@
   "typings": "lib/cjs/index.d.ts",
   "types": "lib/cjs/index.d.ts",
   "peerDependencies": {
-    "@cycle/react": "^2.2.0",
+    "@cycle/react": "^2.7.0",
     "react": ">=16.4.x",
     "react-dom": ">=16.4.x",
     "xstream": "11.x.x"
   },
   "devDependencies": {
-    "@cycle/react": "^2.7.0",
+    "@cycle/react": "ntilwalli/react#domProps",
     "@cycle/run": "^5.1.0",
     "@types/mocha": "^2.2.40",
     "@types/node": "^10.5.2",
