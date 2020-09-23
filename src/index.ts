@@ -1,11 +1,12 @@
 import {Stream} from 'xstream';
 import {ReactElement, createElement} from 'react';
 import {render} from 'react-dom';
-import {ReactSource, makeCycleReactComponent} from '@cycle/react';
+import {ReactSource, makeCycleReactComponent, useModules} from 'stump-react';
 
-export function makeDOMDriver(container: any) {
+export function makeDOMDriver(container: any, modules?: any) {
   return function domDriver(sink: Stream<ReactElement<any>>) {
     const source = new ReactSource();
+    if (modules) useModules(modules);
     const Root = makeCycleReactComponent(() => ({source, sink}));
     render(createElement(Root), container);
     return source;
